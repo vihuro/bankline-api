@@ -28,6 +28,9 @@ public class Correntista {
 		return conta;
 	}
 	
+	public void setConta() {
+		this.conta = conta;
+	}
 	
 	public Integer getId() {
 		return id;
@@ -46,6 +49,11 @@ public class Correntista {
 	}
 	public void setNome(String nome) {
 		this.nome = nome;
+	}
+
+	public void setConta(Conta conta2) {
+		// TODO Auto-generated method stub
+		
 	}
 	
 	
