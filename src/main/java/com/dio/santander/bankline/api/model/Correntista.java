@@ -28,7 +28,7 @@ public class Correntista {
 		return conta;
 	}
 	
-	public void setConta() {
+	public void setConta(Conta conta) {
 		this.conta = conta;
 	}
 	
@@ -51,11 +51,5 @@ public class Correntista {
 		this.nome = nome;
 	}
 
-	public void setConta(Conta conta2) {
-		// TODO Auto-generated method stub
-		
-	}
-	
-	
 	
 }
